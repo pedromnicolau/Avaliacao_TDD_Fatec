@@ -18,11 +18,19 @@ Para rodar o projeto:
 
 3- Rode os comandos:
   3a) python -m venv venv
+
   3b) venv\Scripts\activate
+
   3c) pip install -r requirements.txt
+
   3d) cd estagios/
+
   3e) python manage.py migrate
+
   3f) python manage.py test
-  3g) coverage run --source='.' manage.py test 
+
+  3g) coverage run --source='.' manage.py test
+ 
   3h) coverage html
+
   3i) python manage.py runserver
