@@ -2,7 +2,7 @@
 
 Professor: Orlando Saraiva Jr
 
-Matéria: Desenvolvimento de software 3
+Matéria: Desenvolvimento Web 3
 
 Linguagem utilizada: Python
 
