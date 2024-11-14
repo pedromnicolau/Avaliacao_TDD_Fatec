@@ -17,20 +17,21 @@ Para rodar o projeto:
 2- Abra o terminal e clone o repositório
 
 3- Rode os comandos:
-  3a) python -m venv venv
 
-  3b) venv\Scripts\activate
+    3.1) python -m venv venv
 
-  3c) pip install -r requirements.txt
+    3.2) venv\Scripts\activate
 
-  3d) cd estagios/
+    3.3) pip install -r requirements.txt
 
-  3e) python manage.py migrate
+    3.4) cd estagios/
 
-  3f) python manage.py test
+    3.5) python manage.py migrate
 
-  3g) coverage run --source='.' manage.py test
+    3.6) python manage.py test
+
+    3.7) coverage run --source='.' manage.py test
  
-  3h) coverage html
+    3.8) coverage html
 
-  3i) python manage.py runserver
+    3.9) python manage.py runserver
